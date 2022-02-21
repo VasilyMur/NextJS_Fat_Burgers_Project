@@ -1,0 +1,25 @@
+{
+  "name": "burgers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 5000",
+    "serve": "concurrently \"npm run dev\" \"npm run json-server\""
+  },
+  "dependencies": {
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0",
+    "json-server": "^0.17.0"
+  }
+}

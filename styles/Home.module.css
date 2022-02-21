@@ -1,0 +1,27 @@
+
+.title {
+  color: #ffe;
+  text-align: center;
+  font-size: 50px;
+}
+.text {
+  text-align: center;
+}
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto 40px;
+  background: #ffc600;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+}
+.mainImage {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
